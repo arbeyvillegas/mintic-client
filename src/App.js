@@ -19,7 +19,7 @@ function App() {
   const renderizacionCondicional = () => {
     if (!isLoggedIn)
       return (<GoogleLogin
-        clientId="976259768420-j8aoul0n9n30s806m0k0dtv04e4u9oag.apps.googleusercontent.com"
+        clientId="976259768420-s00hhk4mv0dq0nnpovo5fo0da3iqc23c.apps.googleusercontent.com"
         buttonText="Login"
         onSuccess={respuestaGoogle}
         onFailure={respuestaFallidaGoogle}
